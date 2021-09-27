@@ -541,7 +541,17 @@ span.accent-color {
   padding: 5px 0;
 }
 
+.schedule a {
+  color: #d8f5f8;
+  text-decoration: none;
+}
+
 .schedule a:hover {
+  cursor: pointer;
+  color: chocolate;
+}
+
+.schedule a:active {
   cursor: pointer;
   color: chocolate;
 }

@@ -179,7 +179,14 @@ body.background .menu-link {
 
 div.header-logo {
   display: flex;
-  
+}
+
+.menu-list li:nth-child(6) {
+  display: none;
+}
+
+.menu-list li:last-child {
+  display: none;
 }
 
 /* --------------------- */
@@ -306,6 +313,15 @@ body._touch .menu-link {
   }
   .menu-list > li:last-child {
     margin-bottom: 0;
+  }
+  .menu-list li:nth-child(6) {
+    display: block;
+    visibility: hidden;
+  }
+  
+  .menu-list li:last-child {
+    display: block;
+    visibility: hidden;
   }
   .menu-link {
     font-size: 24px;
@@ -501,6 +517,7 @@ span.accent-color {
 .schedule h2:last-of-type {
   margin-top: 40px;
 }
+
 .schedule {
   position: absolute;
   top: 180px;

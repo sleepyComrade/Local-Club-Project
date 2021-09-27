@@ -501,12 +501,15 @@ span.accent-color {
 .schedule h2:last-of-type {
   margin-top: 40px;
 }
-
 .schedule {
   position: absolute;
   top: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 10px;
+  right: 10px;
   min-width: 200px;
-  max-width: 450px;
+  max-width: 400px;
   margin-top: 20%;
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
@@ -531,9 +534,13 @@ span.accent-color {
     font-size: 50px;
   }
 .schedule {
+  max-width: 450px;
+  margin-left: unset;
+  margin-right: unset;
   left: 10%;
   bottom: 10%;
   top: auto;
+  right: unset;
 }
 }
 
